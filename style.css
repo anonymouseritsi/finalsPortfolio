@@ -287,10 +287,6 @@ footer {
 
 /* Responsive styling */
 @media only screen and (max-width: 600px) {
-    body{
-        margin: 30px;
-    }
-
     nav ul {
         position: absolute;
         width: 100%;
