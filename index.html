@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+    <img src="logo.png" alt="Logo" class="logo">
+    <ul id="menu-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+    </ul>
+    <a href="#works"><button class="navigation">Get Started</button></a>
+    <img src="menu.png" alt="Menu Icon" class="menu-icon" onclick="toggleMenu()">
+</nav>
+
+<div class="header" id="home">
+    <div class="header-content">
+        <h1><span s>WEB</span><br><span>DEVELOPER</span></h1>
+        <div class="btn-container">
+            <a href="#about"><button style="color: black;" class="btn">Know More</button></a>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <img src="bg.png" alt="User Image" class="user-img">
+</div>
+
+<section id="about">
+    <div class="section-container">
+        <div class="section-content-left">
+            <div class="about-header">
+                <h2>About Me</h2>
+                <img src="bg.png" alt="About Image">
+            </div>
+        </div>
+        <div class="section-content-right">
+            <h2>Hello I am...</h2>
+            <h1>Richie M. Alcantara</h1>
+            <h2>I'm a Web Developer</h2>
+            <p>A passionate web developer with a knack for turning ideas into interactive digital experiences. 
+                With a solid foundation in HTML, CSS, and JavaScript, I thrive on bringing designs to life and crafting seamless online journeys for users.</p>
+            <br><p>In essence, I'm not just a web developer—I'm a problem solver, a creative thinker, and a relentless learner, 
+                committed to pushing the boundaries of what's possible in the digital realm. And I'm excited to bring that passion and expertise to every project I undertake.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="works">
+    <h1>My Works</h1>
+    <div class="works-container">
+        <a href="https://anonymouseritsi.github.io/CALCULATOR_APP/" target="_blank"><img src="1.png" alt="Project 1"></a>
+        <a href="https://anonymouseritsi.github.io/rock-paper-scissors2/" target="_blank"><img src="2.png" alt="Project 2"></a>
+    </div>
+    <div class="works-container">
+        <a href="https://anonymouseritsi.github.io/Alcantara_resume/" target="_blank"><img src="3.png" alt="Project 3"></a>
+        <a href="https://www.figma.com/design/4w9IT8l4eg8umLjyhods4Y/Porfolio?node-id=0-1&t=jislLrXWXuTkKXPo-0" target="_blank"><img src="4.png" alt="Project 3"></a>
+    </div>
+</section>
+
+<section id="contacts">
+    <h1>Contacts</h1>
+
+    <div class="contacts-info">
+        <div class="images">
+            <a href="https://www.facebook.com/Alcantara.r22?mibextid=ZbWKwL" target="_blank"><img src="fb.png" alt="Project 1"></a> <span>RICHIE ALCANTARA</span>
+            <a href="https://www.instagram.com/riiitsiii?igsh=MTk3aDE5Z2xkeGplOA==" target="_blank"><img src="ig.png" alt="Project 1"></a><span>@RITSIII</span>
+        </div>
+        <div class="images">
+            <a style="padding-left: 60px;" href="richiealcantara@gmail.com" target="_blank"><img src="gmail.png" alt="Project 1"></a><span>ritsi0725 @gmail.com</span>
+            <a href="09913139041@gmail.com" target="_blank"><img src="call.png" alt="Project 1"></a><span>09913139041</span>
+        </div>
+    </div>
+
+    <footer >
+        <p>Copyright &copy; 2024 | All Rights Reserved</p>
+        <p style="color: rgba(250, 226, 12, 1);">DEVELOPED BY: RICHIE M. ALCANTARA</p>
+    </footer>
+</section>
+
+<script>
+    let menuLinks = document.getElementById("menu-links");
+
+    function toggleMenu() {
+        menuLinks.classList.toggle('show-menu');
+    }
+</script>
+</body>
+</html>
