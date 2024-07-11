@@ -288,7 +288,7 @@ footer {
 /* Responsive styling */
 @media only screen and (max-width: 600px) {
     body{
-        margin: 80px;
+        margin: 30px;
     }
 
     nav ul {
